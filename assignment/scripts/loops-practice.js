@@ -32,13 +32,13 @@ for (let i = 3; i < 6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 // need to change i++ to i += 2
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-for (let i = 0; i < 11; i += 2) {
+for (let i = 2; i < 11; i += 2) {
   console.log(i);
 }
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-for (let i = 5; i > 0, i -= 1) {
+for (let i = 5; i >= 0; i -= 1) {
   console.log(i);
 }
 
@@ -68,10 +68,10 @@ while (i < stars.length) {
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
-
-while (i < 6) {
-  console.log(i);
-  i += 1;
+let a = 0;
+while (a < 6) {
+  console.log(a);
+  a += 1;
 }
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
@@ -79,7 +79,7 @@ console.log('count backwards from 10 to 5');
 
 let whileLoop = 10;
 
-while (i > 4) {
-  console.log(i);
-  i -= 1;
+while (whileLoop > 4) {
+  console.log(whileLoop);
+  whileLoop -= 1;
 }
